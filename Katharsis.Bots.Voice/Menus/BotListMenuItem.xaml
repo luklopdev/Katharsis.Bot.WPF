@@ -4,7 +4,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Katharsis.Bots.Voice.Menus"
-             mc:Ignorable="d">
+             xmlns:behaviors="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:vm="clr-namespace:Katharsis.Bots.Voice.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:BotListMenuItemViewModel}"
+             mc:Ignorable="d" Selected="ListBoxItem_Selected">
+
+    <behaviors:Interaction.Triggers>
+        <behaviors:EventTrigger EventName="Selected">
+            <behaviors:InvokeCommandAction Command="{Binding SelectedCommand}"/>
+        </behaviors:EventTrigger>
+    </behaviors:Interaction.Triggers>
+    
     <Grid>
         <Label Content="Katharsis Voice"/>
     </Grid>

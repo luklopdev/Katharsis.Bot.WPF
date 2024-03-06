@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Katharsis.Bots.Voice.Menus
+namespace Katharsis.Bots.Voice.Views
 {
     /// <summary>
-    /// Interaction logic for BotListMenuItem.xaml
+    /// Interaction logic for BotMainView.xaml
     /// </summary>
-    public partial class BotListMenuItem : ListBoxItem
+    public partial class BotMainView : UserControl
     {
-        public BotListMenuItem()
+        public BotMainView()
         {
             InitializeComponent();
-        }
-
-        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -15,5 +15,7 @@
         <DockPanel Width="200">
             <ListBox prism:RegionManager.RegionName="{x:Static core:RegionNames.BOTS_LIST_REGION}"/>
         </DockPanel>
+        
+        <ContentControl Grid.Column="1" prism:RegionManager.RegionName="{x:Static core:RegionNames.MAIN_VIEW_MAIN_REGION}"/>
     </Grid>
 </UserControl>

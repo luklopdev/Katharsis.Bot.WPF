@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bots", "Bots", "{10207362-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice", "Katharsis.Bots.Voice\Katharsis.Bots.Voice.csproj", "{11C17280-CC35-47E3-B490-137407EF53C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Katharsis.Voice", "Katharsis.Voice", "{D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,7 +36,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{11C17280-CC35-47E3-B490-137407EF53C3} = {10207362-7C4E-4A3A-8FBE-7A80F8A0A51A}
+		{11C17280-CC35-47E3-B490-137407EF53C3} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
+		{D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D} = {10207362-7C4E-4A3A-8FBE-7A80F8A0A51A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12085EBD-B7C1-49AA-8576-79C1EDC0D83F}
