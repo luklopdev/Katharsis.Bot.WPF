@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Katharsis.Bot.Core\Katharsis.Bot.Core.csproj" />
+    <ProjectReference Include="..\Katharsis.Bots.Voice.Core\Katharsis.Bots.Voice.Core.csproj" />
   </ItemGroup>
 
 </Project>

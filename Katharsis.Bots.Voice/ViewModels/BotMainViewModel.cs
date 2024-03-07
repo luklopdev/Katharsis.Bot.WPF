@@ -28,7 +28,7 @@ namespace Katharsis.Bots.Voice.ViewModels
         {   
             _client = new DiscordSocketClient();
             _client.Log += Log;
-            await _client.LoginAsync(TokenType.Bot, TOKEN);
+            await _client.LoginAsync(TokenType.Bot, "");
             await _client.StartAsync();
         }
 

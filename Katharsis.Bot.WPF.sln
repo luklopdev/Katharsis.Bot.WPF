@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bot.WPF", "Katharsis.Bot.WPF\Katharsis.Bot.WPF.csproj", "{8796F2A8-668F-4E5E-B102-7361FBBD8018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katharsis.Bot.WPF", "Katharsis.Bot.WPF\Katharsis.Bot.WPF.csproj", "{8796F2A8-668F-4E5E-B102-7361FBBD8018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bot.Core", "Katharsis.Bot.Core\Katharsis.Bot.Core.csproj", "{46C5FF0E-1C6F-4A73-8936-B90AED916542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katharsis.Bot.Core", "Katharsis.Bot.Core\Katharsis.Bot.Core.csproj", "{46C5FF0E-1C6F-4A73-8936-B90AED916542}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bots", "Bots", "{10207362-7C4E-4A3A-8FBE-7A80F8A0A51A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice", "Katharsis.Bots.Voice\Katharsis.Bots.Voice.csproj", "{11C17280-CC35-47E3-B490-137407EF53C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katharsis.Bots.Voice", "Katharsis.Bots.Voice\Katharsis.Bots.Voice.csproj", "{11C17280-CC35-47E3-B490-137407EF53C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Katharsis.Voice", "Katharsis.Voice", "{D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Core", "Katharsis.Bots.Voice.Core\Katharsis.Bots.Voice.Core.csproj", "{B35ED741-9D89-4579-8239-8527A916522D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{11C17280-CC35-47E3-B490-137407EF53C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C17280-CC35-47E3-B490-137407EF53C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11C17280-CC35-47E3-B490-137407EF53C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35ED741-9D89-4579-8239-8527A916522D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35ED741-9D89-4579-8239-8527A916522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35ED741-9D89-4579-8239-8527A916522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35ED741-9D89-4579-8239-8527A916522D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{11C17280-CC35-47E3-B490-137407EF53C3} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
 		{D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D} = {10207362-7C4E-4A3A-8FBE-7A80F8A0A51A}
+		{B35ED741-9D89-4579-8239-8527A916522D} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12085EBD-B7C1-49AA-8576-79C1EDC0D83F}

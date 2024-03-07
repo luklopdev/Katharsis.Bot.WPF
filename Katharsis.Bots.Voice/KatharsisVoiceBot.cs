@@ -21,12 +21,16 @@ namespace Katharsis.Bots.Voice
         public void OnInitialized(IContainerProvider containerProvider)
         {
             _regionManager.RegisterViewWithRegion(RegionNames.BOTS_LIST_REGION, typeof(BotListMenuItem));
+            _regionManager.RegisterViewWithRegion(Core.RegionNames.SHELL_TOP_REGION, typeof(BarView));
+            _regionManager.RegisterViewWithRegion(Core.RegionNames.SHELL_MAIN_REGION, typeof(BotMainView));
+            _regionManager.RegisterViewWithRegion(Core.RegionNames.BAR_REGION, typeof(BarNavigationItemBot));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             ViewModelLocationProvider.Register<BotListMenuItem, BotListMenuItemViewModel>();
 
+            containerRegistry.RegisterForNavigation<BotShellView, BotShellViewModel>();
             containerRegistry.RegisterForNavigation<BotMainView, BotMainViewModel>();
         }
     }

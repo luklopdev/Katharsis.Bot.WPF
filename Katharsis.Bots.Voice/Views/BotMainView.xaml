@@ -19,6 +19,7 @@
         <DataGrid Grid.Column="0" ItemsSource="{Binding Logs}">
             
         </DataGrid>
+        
         <Grid Grid.Column="1">
             <Button Grid.Column="0" Content="Start" Command="{Binding StartCommand}"/>
         </Grid>

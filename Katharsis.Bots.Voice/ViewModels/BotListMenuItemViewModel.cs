@@ -21,7 +21,7 @@ namespace Katharsis.Bots.Voice.ViewModels
 
         void ExecuteSelectedCommand()
         {
-            _regionManager.RequestNavigate(RegionNames.MAIN_VIEW_MAIN_REGION, nameof(BotMainView));
+            _regionManager.RequestNavigate(RegionNames.MAIN_VIEW_MAIN_REGION, nameof(BotShellView));
         }
     }
 }
