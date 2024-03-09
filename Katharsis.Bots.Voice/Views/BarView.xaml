@@ -10,6 +10,12 @@
              xmlns:prism="http://prismlibrary.com/"
              mc:Ignorable="d">
     <Grid>
-        <ItemsControl prism:RegionManager.RegionName="{x:Static voiceCore:RegionNames.BAR_REGION}"/>
+        <ItemsControl prism:RegionManager.RegionName="{x:Static voiceCore:RegionNames.BAR_REGION}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
     </Grid>
 </UserControl>
