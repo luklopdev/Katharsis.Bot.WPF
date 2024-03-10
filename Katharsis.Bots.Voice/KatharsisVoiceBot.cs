@@ -22,7 +22,6 @@ namespace Katharsis.Bots.Voice
         {
             _regionManager.RegisterViewWithRegion(RegionNames.BOTS_LIST_REGION, typeof(BotListMenuItem));
             _regionManager.RegisterViewWithRegion(Core.RegionNames.SHELL_TOP_REGION, typeof(BarView));
-            _regionManager.RegisterViewWithRegion(Core.RegionNames.SHELL_MAIN_REGION, typeof(BotMainView));
             _regionManager.RegisterViewWithRegion(Core.RegionNames.BAR_REGION, typeof(BarNavigationItemBot));
             _regionManager.RegisterViewWithRegion(Core.RegionNames.BAR_REGION, typeof(BarNavigationItemSettings));
         }

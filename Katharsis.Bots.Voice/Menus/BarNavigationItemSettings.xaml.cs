@@ -20,7 +20,7 @@ namespace Katharsis.Bots.Voice.Menus
     /// <summary>
     /// Interaction logic for BarNavigationItemSettings.xaml
     /// </summary>
-    public partial class BarNavigationItemSettings : Button, IBarNavigationItem
+    public partial class BarNavigationItemSettings : ListViewItem, IBarNavigationItem
     {
         public string View => nameof(SettingsView);
 
