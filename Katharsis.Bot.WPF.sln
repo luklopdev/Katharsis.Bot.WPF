@@ -15,6 +15,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Katharsis.Voice", "Katharsi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Core", "Katharsis.Bots.Voice.Core\Katharsis.Bots.Voice.Core.csproj", "{B35ED741-9D89-4579-8239-8527A916522D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Services", "Katharsis.Bots.Voice.Services\Katharsis.Bots.Voice.Services.csproj", "{52756183-AF15-4217-8413-18B4214D1537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Repositories.Interfaces", "Katharsis.Bots.Voice.Repositories\Katharsis.Bots.Voice.Repositories.Interfaces.csproj", "{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Data", "Katharsis.Bots.Voice.Data\Katharsis.Bots.Voice.Data.csproj", "{4B893C62-3A64-45D6-938F-DAE4B532F0AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katharsis.Bots.Voice.Repositories.SqlLite", "Katharsis.Bots.Voice.Repositories.SqlLite\Katharsis.Bots.Voice.Repositories.SqlLite.csproj", "{9F41640B-71B5-4A10-8999-134AFAF983E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +45,22 @@ Global
 		{B35ED741-9D89-4579-8239-8527A916522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B35ED741-9D89-4579-8239-8527A916522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B35ED741-9D89-4579-8239-8527A916522D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52756183-AF15-4217-8413-18B4214D1537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52756183-AF15-4217-8413-18B4214D1537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52756183-AF15-4217-8413-18B4214D1537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52756183-AF15-4217-8413-18B4214D1537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B893C62-3A64-45D6-938F-DAE4B532F0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B893C62-3A64-45D6-938F-DAE4B532F0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B893C62-3A64-45D6-938F-DAE4B532F0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B893C62-3A64-45D6-938F-DAE4B532F0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F41640B-71B5-4A10-8999-134AFAF983E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F41640B-71B5-4A10-8999-134AFAF983E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F41640B-71B5-4A10-8999-134AFAF983E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F41640B-71B5-4A10-8999-134AFAF983E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +69,10 @@ Global
 		{11C17280-CC35-47E3-B490-137407EF53C3} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
 		{D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D} = {10207362-7C4E-4A3A-8FBE-7A80F8A0A51A}
 		{B35ED741-9D89-4579-8239-8527A916522D} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
+		{52756183-AF15-4217-8413-18B4214D1537} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
+		{A6983E09-D27B-489C-AC3F-7D6B1F1D0F92} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
+		{4B893C62-3A64-45D6-938F-DAE4B532F0AA} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
+		{9F41640B-71B5-4A10-8999-134AFAF983E4} = {D292ED9C-DA1B-4DFA-A02F-39C6A8BE4B0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12085EBD-B7C1-49AA-8576-79C1EDC0D83F}
